@@ -19,5 +19,5 @@ else
 fi
 
 # restart the http service to make the changed to take effect
-systemctl restart httpd.service
+systemctl restart apache2
 action_status $?
